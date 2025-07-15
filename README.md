@@ -1,20 +1,31 @@
-# Netflix-Binge-Tracker
+# Netflix Title Analysis 
 
+Explore and analyze Netflix's entire content library using Python and Tableau.
 
-Track your Netflix binge-watching habits with Python and Tableau.
+This project uses the Netflix Titles dataset to uncover insights into genre trends, country-specific content, director/actor popularity, and content rating patterns over time.
 
-This project analyzes viewing activity to calculate total watch time, number of episodes watched, and a custom **Binge Risk Score** per day. It includes a Tableau dashboard that visualizes trends, peak binge days, and risk levels.
+## Dataset Overview
+
+Source: Netflix Titles dataset  
+Key columns: `title`, `type`, `director`, `cast`, `country`, `date_added`, `release_year`, `rating`, `duration`, `listed_in`, `description`
+
 
 ## Tools Used
-- Python (Pandas, NumPy)
-- Tableau 
-- CSV viewing history
+- **Python** (Pandas, NumPy, Matplotlib, Seaborn)
+- **Tableau Public** (for visual storytelling)
 
-## Features
-- Daily watch time analysis
-- Custom "Binge Risk Score"
-- Watch trends by day of week
-- Visual dashboard of episodes, hours, and risk levels
+## Key Insights
+- Most common genres and their trends over the years
+- Top content-producing countries
+- Most featured actors/directors
+- Content length distribution by type and rating
+- Rating distribution across regions
+
+
+
+
+*This project showcases exploratory data analysis, data visualization, and storytelling using real-world entertainment data.*
+
 
 
 
